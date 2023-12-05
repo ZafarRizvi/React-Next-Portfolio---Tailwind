@@ -5,4 +5,6 @@
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-![DevFolio Mockup](public/forReadme.png)
+<p align="center">
+  <img src="public/forReadme.png">
+</p>
