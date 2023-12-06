@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Navbar = () => {
@@ -8,12 +9,12 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <img
+          <Image
+            className="cursor-pointer hover:animate-spin"
             src="/NavLogo.png"
             alt="Logo"
-            width={70}
             height={70}
-            className="cursor-pointer hover:animate-spin"
+            width={70}
           />
           {/* hidden md:block */}
           <span className="font-bold ml-[10px] text-gray-300">

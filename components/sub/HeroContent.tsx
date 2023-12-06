@@ -57,7 +57,7 @@ const HeroContent = () => {
           href="https://www.google.com"
           target="_blank"
         >
-          Let's Chat!
+          Let&apos;s Chat!
         </motion.a>
       </div>
 
