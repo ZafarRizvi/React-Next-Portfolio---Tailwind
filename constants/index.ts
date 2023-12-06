@@ -93,18 +93,3 @@ export const Backend_skill = [
     height: 50,
   },
 ];
-
-export const Socials = [
-  {
-    name: "Discord",
-    src: "/instagram.svg",
-  },
-  {
-    name: "Facebook",
-    src: "/facebook.svg",
-  },
-  {
-    name: "Instagram",
-    src: "/discord.svg",
-  },
-];

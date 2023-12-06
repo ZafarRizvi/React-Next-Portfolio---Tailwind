@@ -7,7 +7,6 @@ import {
   slideInFromRight,
   slideInFromTop,
 } from "@/utils/motion";
-import { Socials } from "@/constants";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 
@@ -51,72 +50,6 @@ const HeroContent = () => {
           skills.
           <br />
           <br />
-          <div className="flex flex-row justify-around">
-            <hr className="w-1/5 border-t border-gray-300 mt-3" />
-            <a
-              href="https://www.linkedin.com/in/smzrizvi/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="LinkedIn"
-              className="hover:text-[#0077b5] hover:scale-150 transition duration-300 ease-in-out"
-            >
-              <i className="icon fab fa-linkedin text-6xl"></i>
-            </a>
-            <a
-              href="https://github.com/ZafarRizvi"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Github"
-              className="hover:text-[#525a62] hover:scale-150 transition duration-300 ease-in-out"
-            >
-              <i className="icon fab fa-github"></i>
-            </a>
-            <a
-              href="https://stackoverflow.com/users/12672819/syed-muhammad-zafar-rizvi"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Stack Overflow"
-              className="hover:text-[#F47F24] hover:scale-150 transition duration-300 ease-in-out"
-            >
-              <i className="icon fab fa-stack-overflow"></i>
-            </a>
-            <a
-              href="https://discord.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Discord"
-              className="hover:text-[#7289DA] hover:scale-150 transition duration-300 ease-in-out"
-            >
-              <i className="icon fab fa-discord"></i>
-            </a>
-            {/* Try Hack Me */}
-            <a
-              href="https://tryhackme.com/p/smzafar.rizwi"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Try Hack Me"
-              className="hover:text-[#F47F24] hover:scale-150 transition duration-300 ease-in-out"
-            >
-              <i className="icon fas fa-user-secret"></i>
-            </a>
-            <a
-              href="mailto:smzrdev@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#EA4335] hover:scale-150 transition duration-300 ease-in-out"
-            >
-              <i className="icon fas fa-envelope"></i>
-            </a>
-            {/* {Socials.map((social) => (
-              <Image
-                src={social.src}
-                alt={social.name}
-                key={social.name}
-                width={24}
-                height={24}
-              />
-            ))} */}
-          </div>
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
