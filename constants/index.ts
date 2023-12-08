@@ -93,3 +93,50 @@ export const Backend_skill = [
     height: 50,
   },
 ];
+
+export const Security_skill = [
+  {
+    skill_name: "Linux",
+    Image: "/linux.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Kali Linux",
+    Image: "/kali.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Nmap",
+    Image: "/nmap.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Wireshark",
+    Image: "/wireshark.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "John the Ripper",
+    Image: "/jtp.png",
+    width: 80,
+    height: 80,
+  },
+];
+
+// {
+//   skill_name: "Metasploit",
+//   Image: "/metasploit.png",
+//   width: 80,
+//   height: 80,
+// },
+
+// {
+//   skill_name: "Burp Suite",
+//   Image: "/burpsuite.png",
+//   width: 80,
+//   height: 80,
+// },

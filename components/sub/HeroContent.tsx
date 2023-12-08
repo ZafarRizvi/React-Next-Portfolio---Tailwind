@@ -46,8 +46,7 @@ const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Secure Software development. Check out my projects and
-          skills.
+          Mobile, and Secure Software development. Wellcome to my Portfolio!
           <br />
           <br />
         </motion.p>

@@ -27,7 +27,7 @@ const Navbar = () => {
               About Me
             </a>
             <a href="#tech" className="cursor-pointer hover:text-gray-400">
-              Tech
+              My Tech
             </a>
             <a href="#projects" className="cursor-pointer hover:text-gray-400">
               Projects
