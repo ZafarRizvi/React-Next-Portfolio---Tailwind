@@ -50,14 +50,24 @@ const HeroContent = () => {
           <br />
           <br />
         </motion.p>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          href="https://www.google.com"
-          target="_blank"
-        >
-          Let&apos;s Chat!
-        </motion.a>
+        <div className="flex flex-row md:w-1/2 w-full justify-center">
+          <motion.a
+            variants={slideInFromLeft(1)}
+            className="py-3 px-4 mr-3 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+            href="https://www.google.com"
+            target="_blank"
+          >
+            Let&apos;s Chat!
+          </motion.a>
+          <motion.a
+            variants={slideInFromLeft(1)}
+            className="py-3 px-4 ml-3 button-primary text-center text-white cursor-pointer rounded-lg max-w-[300px]"
+            href="/Resume.pdf"
+            download
+          >
+            Download My Resume!
+          </motion.a>
+        </div>
       </div>
 
       <motion.div
