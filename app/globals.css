@@ -4,8 +4,25 @@
 @tailwind utilities;
 @import "~@fortawesome/fontawesome-free/css/all.css";
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
+} */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #4848488b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7042f8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7042f8a0;
 }
 
 .cursive {

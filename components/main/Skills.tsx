@@ -1,7 +1,7 @@
 import { Backend_skill, Skill_data, Security_skill } from "@/constants";
 import React from "react";
 import SkillDataProvider from "../sub/SkilledDataProvider";
-import SkillText from "./SkillText";
+import SkillText from "../sub/SkillText";
 
 const Skills = () => {
   return (
